@@ -1,6 +1,7 @@
 module github.com/imgproxy/imgproxy/v2
 
-go 1.13
+// +heroku goVersion go1.16
+go 1.16
 
 require (
 	cloud.google.com/go/storage v1.13.0
